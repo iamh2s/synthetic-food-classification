@@ -1,20 +1,7 @@
-# Core data handling
-pandas==2.2.2
-numpy==1.26.4
-
-# Machine learning & imputation
-scikit-learn==1.5.0
-xgboost==2.1.0
-lightgbm==4.3.0
-
-# Visualization & profiling
-matplotlib==3.9.0
-seaborn==0.13.2
-ydata-profiling==4.6.0   # for dataset profiling reports
-
-# Web app / dashboard
-streamlit==1.36.0
-
-# Utilities
-joblib==1.4.2
-tqdm==4.66.4
+pandas>=2.0.0
+ydata-profiling>=4.0.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+xgboost>=2.0.0

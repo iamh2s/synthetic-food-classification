@@ -1,0 +1,58 @@
+# ------------------------
+# Virtual environment
+# ------------------------
+venv/
+.venv/
+ENV/
+env/
+
+# ------------------------
+# Python cache
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ------------------------
+# Data files (YOUR CSV)
+# ------------------------
+synthetic_food_dataset_imbalanced.csv
+synthetic_food_dataset_clean.csv
+*.csv
+*.xlsx
+*.json
+
+# ------------------------
+# Profiling & Reports
+# ------------------------
+*.html
+*.profile_report
+*.pdf
+
+# ------------------------
+# Images / Screenshots
+# ------------------------
+assets/screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# ------------------------
+# Model Files
+# ------------------------
+*.pkl
+*.pickle
+*.joblib
+
+# ------------------------
+# System files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Editor folders
+# ------------------------
+.vscode/
+.idea/
